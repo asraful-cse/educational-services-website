@@ -1,5 +1,4 @@
 import React from 'react';
-
 const About = () => {
     return (
         <div className="container text-light">

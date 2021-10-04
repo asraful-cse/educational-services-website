@@ -1,10 +1,8 @@
 import React from 'react';
-
 const MoreServices = (props) => {
-    console.log(props.more);
     const { img, name, title, level, Vlength, enrolled, subject, price, facebook, instragram, twitter } = props.more;
     return (
-        <div class="col py-1" style={{padding:'0px'}} >
+        <div class="col py-1" style={{ padding: '0px' }} >
             <div style={{ width: '22rem', backgroundColor: "black", borderRadius: "0.5rem", color: 'yellow' }}
                 className="card h-100 hoverer shadow m-3 text-center" >
                 <img src={img} alt="" className="card-img-top img-fluid  rounded " />
