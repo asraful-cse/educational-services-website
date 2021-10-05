@@ -6,7 +6,7 @@ import skillUp from '../../image/skillUp.png'
 const Home = () => {
     const [homeServices, SetHomeServices] = useState([]);
     useEffect(() => {
-        fetch('./homeServicesData.JSON')
+        fetch('./servicesData.JSON')
             .then(res => res.json())
             .then(data => SetHomeServices(data))
     }, [])
@@ -33,7 +33,7 @@ const Home = () => {
             {/* home services part */}
             <div class="row row-cols-1 row-cols-md-2 g-4 ">
                 {
-                    homeServices.map(service => <HomeServices key={service.key} service={service}></HomeServices>)
+                    homeServices.slice(0, 4).map(service => <HomeServices key={service.key} service={service}></HomeServices>)
                 }
             </div>
         </div>

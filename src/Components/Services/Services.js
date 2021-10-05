@@ -3,7 +3,7 @@ import MoreServices from '../MoreServices/MoreServices';
 const Services = () => {
   const [mores, setMores] = useState([]);
   useEffect(() => {
-    fetch('./MoreServicesData.JSON')
+    fetch('./servicesData.JSON')
       .then(res => res.json())
       .then(data => setMores(data))
   }, [])
