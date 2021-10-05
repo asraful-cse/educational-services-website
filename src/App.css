@@ -1,5 +1,5 @@
 .main{
-  background-image: url('https://image.freepik.com/free-photo/studio-background-concept-dark-gradient-purple-studio-room-background-product_1258-57689.jpg');
+  background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v936-background-adj-08.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=eb5816bfb1a2e622f0fe22c39376e217');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,5 +8,5 @@
   transition: 1000ms;
 }
 .hoverer:hover{
-  background-color: rgba(5, 40, 51, 0.932) !important;
+  background-color: rgba(225, 241, 247, 0.733) !important;
 }

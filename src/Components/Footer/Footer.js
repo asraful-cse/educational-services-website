@@ -2,7 +2,8 @@ import React from 'react';
 import skillUp from '../../image/skillUp.png';
 const Footer = () => {
     return (
-        <div className="bg-light " style={{ textAlign: 'center', padding: '3px', backgroundColor: 'DarkSalmon', color: 'gray' }}>
+        <div className="bg-light " style={{ textAlign: 'center', padding: '3px',
+         backgroundColor: 'DarkSalmon', color: 'gray', borderTop:'1px solid lightGray',marginTop:'60px' }}>
             <div className="container" style={{ marginBottom: '12px', marginTop: "12px" }}>
                 <img src={skillUp} alt="" />
                 <br />

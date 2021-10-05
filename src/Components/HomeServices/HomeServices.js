@@ -3,9 +3,9 @@ const HomeServices = (props) => {
     const { img, name, title, level, Vlength, price, enrolled, subject, facebook, instragram, twitter } = props.service;
     return (
         <div class="col ">
-            <div style={{ width: '32rem', backgroundColor: "black", borderRadius: "0.5rem", color: 'yellow' }} className="card hoverer shadow m-3 text-center" >
+            <div style={{ width: '32rem', backgroundColor: "white", borderRadius: "0.5rem", color: '#176b85fa' }} className="card hoverer shadow m-3 text-center" >
                 <img src={img} alt="" className="card-img-top img-fluid  rounded " />
-                <div className="mt-2 py-1  justify-content-center d-flex " style={{ color: 'white' }}>
+                <div className="mt-2 py-1  justify-content-center d-flex " style={{ color: '#176b85fa' }}>
                     <div className="px-5" ><i class="fas fa-book-reader text-info"></i>  <small>{subject}</small></div>
                     <div className="px-5" ><i class="fas fa-layer-group"></i>  <small>{level}</small></div>
                     <div className="px-5"> <i class="fas fa-users-cog text-info"></i>  <small>{enrolled} Enrolled</small></div>
